@@ -17,8 +17,8 @@ jQuery(document).ready(function($)
       $(image).load(function()
       {
         document.forms[2].elements[11].click();
-        setTimeout(window.scroll(0,100), 300);
-        setTimeout(function(){sco_check_login('ips_connect')}, 600);
+        //setTimeout(window.scroll(0,100), 300);
+        setTimeout(image.click(), 600);
       //Submits form immediately after image loaded.
       //$('#myForm').submit();  
       // Submits form 1 second after image has loaded
