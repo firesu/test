@@ -8,6 +8,6 @@ jQuery(document).ready(function($)
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
-    alert("formSCO存在");
+
   }
 });
