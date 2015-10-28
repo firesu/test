@@ -14,8 +14,16 @@ jQuery(document).ready(function($)
     if (document.images[i].src.match("nextstep.png"))
     {
       //window.scroll(0,100);
-      document.forms[2].elements[11].click();
-      sco_check_login('ips_connect');
+      //document.forms[2].elements[11].click();
+      //sco_check_login('ips_connect');
+      var image = document.images[i];
+      $(image).load(function()
+      {
+      //Submits form immediately after image loaded.
+      //$('#myForm').submit();  
+      // Submits form 1 second after image has loaded
+      setTimeout("alert('對不起, 要你久候')", 1000); 
+      });
     }
   }
 }
