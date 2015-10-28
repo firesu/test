@@ -11,7 +11,7 @@ jQuery(document).ready(function($)
     if (document.images[i].src.match("nextstep.png"))
     {
       window.scroll(0,100);
-      document.forms[2].elements[5].click();
+      document.forms[2].elements[12].click();
       sco_check_login('ips_connect');
     }
   }
