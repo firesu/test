@@ -12,7 +12,7 @@ jQuery(document).ready(function($)
     {
       window.scroll(0,100);
       document.forms[2].elements[11].click();
-      sco_check_login('ips_connect');
+      //sco_check_login('ips_connect');
     }
   }
 }
