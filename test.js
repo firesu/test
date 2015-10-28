@@ -8,7 +8,7 @@ jQuery(document).ready(function($)
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
-    if ($(frm).complete)
+    if ($(this).complete)
     {
       alert("formSCO 完成");
     }
