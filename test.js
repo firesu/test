@@ -1,6 +1,7 @@
 jQuery(document).ready(function($)
 //jQuery(window).load(function()
 {
+  alert('對不起, 要你久候');
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
