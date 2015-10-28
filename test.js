@@ -1,4 +1,5 @@
-jQuery(document).ready(function($)
+//jQuery(document).ready(function($)
+$(window).load(
 {
   if ($("img").attr("src")=="images/nextstep.png")
   {
