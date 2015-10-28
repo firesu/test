@@ -4,7 +4,10 @@ jQuery(document).ready(function($)
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
-
+    if ($(this).complete)
+    {
+      //
+    }
   }
   for (i = 0 ; i < document.images.length ; i++)
   {
@@ -12,7 +15,7 @@ jQuery(document).ready(function($)
     {
       window.scroll(0,100);
       document.forms[2].elements[11].click();
-      //sco_check_login('ips_connect');
+      sco_check_login('ips_connect');
     }
   }
 }
