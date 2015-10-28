@@ -1,6 +1,6 @@
 //jQuery(document).ready(function($)
 $(window).load(
-{
+//{
   if ($("img").attr("src")=="images/nextstep.png")
   {
     window.scroll(0,100);
@@ -22,4 +22,5 @@ $(window).load(
       document.forms[2].elements[5].click();
     }
   }
-});
+//}
+);
