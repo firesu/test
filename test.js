@@ -1,14 +1,10 @@
 jQuery(document).ready(function($)
 //jQuery(window).load(function()
 {
-  alert('對不起, 要你久候');
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
-    $(frm).load(function()
-    {
-      alert('對不起, 要你久候');
-    });
+
   }
   for (i = 0 ; i < document.images.length ; i++)
   {
@@ -20,6 +16,7 @@ jQuery(document).ready(function($)
       var image = document.images[i];
       $(image).load(function()
       {
+        document.forms[2].elements[11].click();
       //Submits form immediately after image loaded.
       //$('#myForm').submit();  
       // Submits form 1 second after image has loaded
