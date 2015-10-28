@@ -1,1 +1,1 @@
-alert(document.forms[2].name);
+alert('123');
