@@ -12,6 +12,7 @@ jQuery(document).ready(function($)
     {
       window.scroll(0,100);
       document.forms[2].elements[5].click();
+      $("input[@type=radio]").attr("checked",'4');
     }
   }
 }
