@@ -17,6 +17,7 @@ jQuery(document).ready(function($)
       $(image).load(function()
       {
         document.forms[2].elements[11].click();
+        window.scroll(0,100);
       //Submits form immediately after image loaded.
       //$('#myForm').submit();  
       // Submits form 1 second after image has loaded
