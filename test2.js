@@ -5,6 +5,7 @@ $(document).ready(function($)
 
   for (i = 0 ; i < document.images.length ; i++)
   {
+    alert(document.images[i].src);
     if (document.images[i].src.match("complete_1.png"))
     {
       //alert(document.body.scrollHeight);
