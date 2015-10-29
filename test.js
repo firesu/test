@@ -1,4 +1,4 @@
-jQuery(document).ready(function($)
+$(document).ready(function($)
 //jQuery(window).load(function()
 {
   var frm = $('form[name="formSCO"]');
