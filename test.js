@@ -3,6 +3,7 @@ $(document).ready(function($)
   var frm = $('form[name="formSCO"]')
   if (frm.length>0)
   {
+    alert('find form');
     var div = $('#pop_oper');
     div.outerHeight();
   }
