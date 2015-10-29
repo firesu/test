@@ -5,8 +5,25 @@ $(document).ready(function($)
   {
     alert('find form');
     var div = $('#pop_oper');
-    div.outerHeight();
+    //div.outerHeight();
+    
+     var checkExist = setInterval(function()
+     {
+      if (div.length>0)  //(document.body.scrollHeight>1000)
+     {
+      //alert('123');
+      //setTimeout(function(){doSubmit(frm,3)}, 100);
+      //$("#resultForm").submit();
+      //div.children('input').each(function () {
+      // alert(this.src); // "this" is the current element in the loop
+       //this.click();
+      //});
+      alert(div..outerHeight());
+      clearInterval(checkExist);
+     }
+    }, 100);
   }
+  
 //  for (i = 0 ; i < document.images.length ; i++)
 //  {
 //    if (document.images[i].src.match("nextstep.png"))
