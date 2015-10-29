@@ -10,7 +10,7 @@ $(document).ready(function($)
      {
       alert('123');
       //setTimeout(function(){return doSubmit(frm,3)}, 100);
-      $("#contact-form").submit();
+      //$("#contact-form").submit();
       clearInterval(checkExist);
      }
     }, 100);
