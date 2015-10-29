@@ -11,6 +11,9 @@ $(document).ready(function($)
      {
       if (div.length>0)  //(document.body.scrollHeight>1000)
      {
+        $('#pop_oper .row.selected img').each(function() {
+        alert($(this).attr('src'))
+        });
       //alert('123');
       //setTimeout(function(){doSubmit(frm,3)}, 100);
       //$("#resultForm").submit();
