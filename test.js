@@ -11,9 +11,6 @@ $(document).ready(function($)
      {
       if (div.length>0)  //(document.body.scrollHeight>1000)
      {
-        $('#pop_oper img').each(function() {
-        alert($(this).attr('src'))
-        });
       //alert('123');
       //setTimeout(function(){doSubmit(frm,3)}, 100);
       //$("#resultForm").submit();
@@ -22,7 +19,10 @@ $(document).ready(function($)
        //this.click();
       //});
       alert(div.outerHeight());
-      clearInterval(checkExist);
+        $('#pop_oper img').each(function() {
+        $(this).click();
+        });
+        clearInterval(checkExist);
      }
     }, 100);
   }
