@@ -39,7 +39,8 @@ $(document).ready(function($)
       {
        var checkExist = setInterval(function()
        {
-        if (document.body.scrollHeight>6580)
+        //if (document.body.scrollHeight>6580)
+        if ($("#radio").length > 0)
         {
           //alert(document.body.scrollHeight);
           setTimeout(document.forms[2].elements[11].click(), 100);
