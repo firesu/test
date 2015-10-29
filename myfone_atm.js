@@ -33,7 +33,7 @@ $(document).ready(function($)
         if (document.body.scrollHeight>6580)
         {
           //alert(document.body.scrollHeight);
-          setTimeout(document.forms[2].elements[11].click(), 200);
+          setTimeout(document.forms[2].elements[11].click(), 100);
          
           var checkExist1 = setInterval(function()
           {
