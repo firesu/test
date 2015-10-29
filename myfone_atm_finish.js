@@ -3,6 +3,7 @@ $(document).ready(function($)
   //alert(document.body.scrollHeight);
   for (i = 0 ; i < document.images.length ; i++)
   {
+    alert(document.images[i].src);
     if (document.images[i].src.match("complete_1.png"))
     {
      alert('1234');
