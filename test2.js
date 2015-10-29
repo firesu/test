@@ -4,7 +4,14 @@ $(document).ready(function($)
   var frm = $('form[name="contact-form"]')
   if (frm.length>0)
   {
-    alert('找到contact-form');
+     var checkExist = setInterval(function()
+     {
+      if (document.body.scrollHeight>1000)
+     {
+      setTimeout(frm.submit(), 100);
+      clearInterval(checkExist);
+     }
+    }, 100);
   }
   for (i = 0 ; i < document.images.length ; i++)
   {
