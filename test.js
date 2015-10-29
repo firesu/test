@@ -1,7 +1,16 @@
 $(document).ready(function($)
 //jQuery(window).load(function()
 {
-  alert(document.body.scrollHeight);
+  //alert(document.body.scrollHeight);
+  var checkExist = setInterval(function()
+  {
+   if (document.body.scrollHeight>6600)
+   {
+      //console.log("Exists!");
+      alert(document.body.scrollHeight);
+      clearInterval(checkExist);
+   }
+  }, 100);
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
