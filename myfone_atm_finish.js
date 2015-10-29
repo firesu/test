@@ -9,7 +9,7 @@ $(document).ready(function($)
      {
       if (document.body.scrollHeight>750)
      {
-      //alert(document.body.scrollHeight);
+      alert(document.body.scrollHeight);
       //setTimeout(document.forms[2].elements[11].click(), 150);
       //setTimeout(function(){submit_payment('ips_connect',1)}, 300);
       var image = document.images[i];
