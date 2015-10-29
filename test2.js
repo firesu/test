@@ -12,7 +12,7 @@ $(document).ready(function($)
       //setTimeout(function(){doSubmit(frm,3)}, 100);
       //$("#resultForm").submit();
       $('#pop_oper').children('input').each(function () {
-       alert(this.value); // "this" is the current element in the loop
+       alert(this.src); // "this" is the current element in the loop
       });
       clearInterval(checkExist);
      }
