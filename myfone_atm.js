@@ -3,7 +3,7 @@ $(document).ready(function($)
   var frm = $('form[name="formSCO"]')
   if (frm.length>0)
   {
-    
+    /*
     //alert('find formSCO form');
     var div = $('#pop_oper');
     //div.outerHeight();
@@ -28,9 +28,9 @@ $(document).ready(function($)
         clearInterval(checkExist);
      }
     }, 100);
+   */ 
     
     
-    /*
     //alert('find formSCO form');
     //alert(document.body.scrollHeight);
     for (i = 0 ; i < document.images.length ; i++)
@@ -59,7 +59,7 @@ $(document).ready(function($)
        }, 100);
       }
     }
-    */
+    
   }
 } 
 );
