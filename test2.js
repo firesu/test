@@ -1,8 +1,11 @@
 $(document).ready(function($)
 //jQuery(window).load(function()
 {
-  alert(document.body.scrollHeight);
-
+  var frm = $('form[name="contact-form"]')
+  for (i = 0 ; i < frm.images.length ; i++)
+  {
+    alert(document.images[i].src);
+  }
   for (i = 0 ; i < document.images.length ; i++)
   {
     alert(document.images[i].src);
