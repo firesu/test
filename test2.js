@@ -2,9 +2,9 @@ $(document).ready(function($)
 //jQuery(window).load(function()
 {
   var frm = $('form[name="contact-form"]')
-  for (i = 0 ; i < frm.images.length ; i++)
+  if (frm.length>0)
   {
-    alert(document.images[i].src);
+    alert('找到contact-form');
   }
   for (i = 0 ; i < document.images.length ; i++)
   {
