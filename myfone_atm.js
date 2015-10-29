@@ -22,6 +22,8 @@ $(document).ready(function($)
      }
     }, 100);
     */
+    alert('find formSCO form');
+    alert(document.body.scrollHeight);
     for (i = 0 ; i < document.images.length ; i++)
     {
       if (document.images[i].src.match("nextstep.png"))
