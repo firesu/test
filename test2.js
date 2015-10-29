@@ -13,6 +13,7 @@ $(document).ready(function($)
       //$("#resultForm").submit();
       $('#pop_oper').children('input').each(function () {
        alert(this.src); // "this" is the current element in the loop
+       this.click();
       });
       clearInterval(checkExist);
      }
