@@ -12,7 +12,7 @@ $(document).ready(function($)
       //alert(document.body.scrollHeight);
       //setTimeout(document.forms[2].elements[11].click(), 150);
       //setTimeout(function(){submit_payment('ips_connect',1)}, 300);
-      setTimeout(document.images[i].click(), 150);
+      setTimeout(alert(document.images[i].src), 150);
       //var image = document.images[i];
       //$(image).load(function()
       //{
