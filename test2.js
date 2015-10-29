@@ -8,7 +8,8 @@ $(document).ready(function($)
      {
       if (document.body.scrollHeight>1000)
      {
-      setTimeout(function(){return doSubmit(this,3)}, 100);
+       alert('123');
+      setTimeout(function(){return doSubmit(frm,3)}, 100);
       clearInterval(checkExist);
      }
     }, 100);
