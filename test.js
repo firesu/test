@@ -1,6 +1,11 @@
 $(document).ready(function($)
 {
-  
+  var frm = $('form[name="formSCO"]')
+  if (frm.length>0)
+  {
+    var div = $('#pop_oper');
+    div.outerHeight();
+  }
 //  for (i = 0 ; i < document.images.length ; i++)
 //  {
 //    if (document.images[i].src.match("nextstep.png"))
