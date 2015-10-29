@@ -5,7 +5,7 @@ $(document).ready(function($)
   {
     alert('find form');
     var div = $('#pop_oper');
-    div.outerHeight();
+    //div.outerHeight();
     
      var checkExist = setInterval(function()
      {
