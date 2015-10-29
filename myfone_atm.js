@@ -20,7 +20,7 @@ $(document).ready(function($)
             {
               $('#pop_oper img').each(function() {
                 //$(this).click();
-                setTimeout($(this).click(), 100);
+                setTimeout($(this).click(), 150);
               });
              clearInterval(checkExist1);
             }
