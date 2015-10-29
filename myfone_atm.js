@@ -34,7 +34,17 @@ $(document).ready(function($)
         {
           //alert(document.body.scrollHeight);
           setTimeout(document.forms[2].elements[11].click(), 200);
-          setTimeout(function(){submit_payment('ips_connect',1)}, 450);
+         
+          var checkExist1 = setInterval(function()
+          {
+            if (document.forms[2].elements[11].checked)
+           {
+             setTimeout(function(){submit_payment('ips_connect',1)}, 100);
+             clearInterval(checkExist1);
+           }
+          }, 100);
+      
+          //setTimeout(function(){submit_payment('ips_connect',1)}, 450);
           clearInterval(checkExist);
         }
        }, 100);
