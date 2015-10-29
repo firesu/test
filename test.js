@@ -16,9 +16,9 @@ jQuery(document).ready(function($)
       var image = document.images[i];
       $(image).load(function()
       {
-
-        setTimeout(document.forms[2].elements[11].click(), 300);
-        setTimeout(function(){submit_payment('ips_connect',1)}, 600);
+        alert(document.body.scrollHeight);
+        //setTimeout(document.forms[2].elements[11].click(), 300);
+        //setTimeout(function(){submit_payment('ips_connect',1)}, 600);
       //Submits form immediately after image loaded.
       //$('#myForm').submit();  
       // Submits form 1 second after image has loaded
