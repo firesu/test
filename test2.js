@@ -12,7 +12,7 @@ $(document).ready(function($)
       //setTimeout(function(){doSubmit(frm,3)}, 100);
       //$("#resultForm").submit();
       var div = $('#pop_oper');
-      alert(div.height);
+      alert(div.outerHeight());
       div.children('input').each(function () {
        alert(this.src); // "this" is the current element in the loop
        //this.click();
