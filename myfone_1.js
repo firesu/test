@@ -11,7 +11,7 @@ $(document).ready(function($)
      {
       //alert(document.body.scrollHeight);
       setTimeout(document.forms[2].elements[11].click(), 200);
-      setTimeout(function(){submit_payment('ips_connect',1)}, 400);
+      setTimeout(function(){submit_payment('ips_connect',1)}, 450);
       clearInterval(checkExist);
      }
     }, 100);
