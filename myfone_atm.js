@@ -3,7 +3,7 @@ $(document).ready(function($)
   var frm = $('form[name="formSCO"]')
   if (frm.length>0)
   {
-    /*
+    
     //alert('find formSCO form');
     var div = $('#pop_oper');
     //div.outerHeight();
@@ -14,14 +14,23 @@ $(document).ready(function($)
      {
         //alert(div.outerHeight());
         setTimeout(document.forms[2].elements[11].click(), 150);
-        $('#pop_oper img').each(function() {
-          //$(this).click();
-          setTimeout($(this).click(), 300);
-        });
+        var checkExist1 = setInterval(function()
+        {
+            if (document.forms[2].elements[11].checked)
+            {
+              $('#pop_oper img').each(function() {
+                //$(this).click();
+                setTimeout($(this).click(), 100);
+              });
+             clearInterval(checkExist1);
+            }
+        }, 100);
         clearInterval(checkExist);
      }
     }, 100);
-    */
+    
+    
+    /*
     //alert('find formSCO form');
     //alert(document.body.scrollHeight);
     for (i = 0 ; i < document.images.length ; i++)
@@ -50,6 +59,7 @@ $(document).ready(function($)
        }, 100);
       }
     }
+    */
   }
 } 
 );
