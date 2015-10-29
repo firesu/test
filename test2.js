@@ -9,8 +9,9 @@ $(document).ready(function($)
       if (document.body.scrollHeight>1000)
      {
       //alert('123');
-      setTimeout(function(){doSubmit(frm,3)}, 100);
+      //setTimeout(function(){doSubmit(frm,3)}, 100);
       //$("#contact-form").submit();
+      alert(frm.document.images[0].src);
       clearInterval(checkExist);
      }
     }, 100);
