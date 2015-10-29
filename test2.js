@@ -8,8 +8,8 @@ $(document).ready(function($)
      {
       if (document.body.scrollHeight>1000)
      {
-      alert('123');
-      //setTimeout(function(){return doSubmit(frm,3)}, 100);
+      //alert('123');
+      setTimeout(function(){doSubmit(this,3)}, 100);
       //$("#contact-form").submit();
       clearInterval(checkExist);
      }
