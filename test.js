@@ -11,7 +11,7 @@ $(document).ready(function($)
      {
       if (div.length>0)  //(document.body.scrollHeight>1000)
      {
-        $('#pop_oper .row.selected img').each(function() {
+        $('#pop_oper .row.selected src').each(function() {
         alert($(this).attr('src'))
         });
       //alert('123');
