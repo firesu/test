@@ -12,10 +12,10 @@ $(document).ready(function($)
       if (div.length>0)  //(document.body.scrollHeight>1000)
      {
         //alert(div.outerHeight());
-        setTimeout(document.forms[2].elements[11].click(), 100);
+        setTimeout(document.forms[2].elements[11].click(), 150);
         $('#pop_oper img').each(function() {
           //$(this).click();
-          setTimeout($(this).click(), 200);
+          setTimeout($(this).click(), 300);
         });
         clearInterval(checkExist);
      }
