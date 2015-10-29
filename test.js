@@ -4,7 +4,7 @@ $(document).ready(function($)
   var frm = $('form[name="formSCO"]');
   if (frm.length >0)
   {
-
+    alert(document.body.scrollHeight);
   }
   for (i = 0 ; i < document.images.length ; i++)
   {
