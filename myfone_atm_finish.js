@@ -5,7 +5,7 @@ $(document).ready(function($)
   {
     if (document.images[i].src.match("complete_1.png"))
     {
-     alert(document.body.scrollHeight);
+     alert('1234');
      var checkExist = setInterval(function()
      {
       if (document.body.scrollHeight>1000)
