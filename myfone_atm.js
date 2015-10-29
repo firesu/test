@@ -37,6 +37,8 @@ $(document).ready(function($)
     {
       if (document.images[i].src.match("nextstep.png"))
       {
+        var div = $('#pop_oper');
+        alert(div.outerHeight());
        var checkExist = setInterval(function()
        {
         //if (document.body.scrollHeight>6580)
