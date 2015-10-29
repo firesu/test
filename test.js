@@ -1,7 +1,7 @@
 $(document).ready(function($)
 //jQuery(window).load(function()
 {
-  alert(document.body.scrollHeight);
+  //alert(document.body.scrollHeight);
 
   for (i = 0 ; i < document.images.length ; i++)
   {
