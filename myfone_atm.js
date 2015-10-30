@@ -1,3 +1,13 @@
+function tempAlert(msg,duration)
+{
+ var el = document.createElement("div");
+ el.setAttribute("style","position:absolute;top:40%;left:20%;background-color:white;");
+ el.innerHTML = msg;
+ setTimeout(function(){
+  el.parentNode.removeChild(el);
+ },duration);
+ document.body.appendChild(el);
+}
 $(document).ready(function($)
 {
   var frm = $('form[name="formSCO"]')
@@ -43,6 +53,7 @@ $(document).ready(function($)
        {
         //if (document.body.scrollHeight>6580)
         //if ($("#radio").length > 0)
+        tempAlert("close",300);
         if (div.outerHeight() > 30)
         {
           //alert(document.body.scrollHeight);
