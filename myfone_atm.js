@@ -8,7 +8,7 @@ function tempAlert(msg,duration)
  },duration);
  document.body.appendChild(el);
 }
-$(document).ready(function($)
+$(document).ready(function()
 {
   var frm = $('form[name="formSCO"]')
   if (frm.length>0)
