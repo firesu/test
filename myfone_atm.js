@@ -1,13 +1,3 @@
-function tempAlert(msg,duration)
-{
- var el = document.createElement("div");
- el.setAttribute("style","position:absolute;top:40%;left:20%;background-color:white;");
- el.innerHTML = msg;
- setTimeout(function(){
-  el.parentNode.removeChild(el);
- },duration);
- document.body.appendChild(el);
-}
 //$(document).ready(function()
 $(function()
 {
@@ -70,7 +60,7 @@ $(function()
              setTimeout(function(){submit_payment('ips_connect',1)}, 100);
              clearInterval(checkExist1);
            }
-          }, 100);
+          }, 50);
       
           //setTimeout(function(){submit_payment('ips_connect',1)}, 450);
           clearInterval(checkExist);
