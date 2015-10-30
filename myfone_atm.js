@@ -49,11 +49,12 @@ $(document).ready(function($)
       {
         var div = $('#pop_oper');
         //alert(div.outerHeight());
+        tempAlert("close",300);
        var checkExist = setInterval(function()
        {
         //if (document.body.scrollHeight>6580)
         //if ($("#radio").length > 0)
-        tempAlert("close",300);
+
         if (div.outerHeight() > 30)
         {
           //alert(document.body.scrollHeight);
