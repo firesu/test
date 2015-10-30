@@ -65,7 +65,7 @@ $(function()
           //setTimeout(function(){submit_payment('ips_connect',1)}, 450);
           clearInterval(checkExist);
         }
-       }, 100);
+       }, 50);
       //}
     //}
     
