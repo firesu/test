@@ -11,7 +11,7 @@ function tempAlert(msg,duration)
 //$(document).ready(function()
 $(function()
 {
-  var frm = $('form[name="formSCO"]')
+  var frm = $('form[name="formSCO"]');
   if (frm.length>0)
   {
     /*
