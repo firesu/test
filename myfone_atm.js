@@ -43,7 +43,7 @@ $(function()
     
     
     //alert('find formSCO form');
-    alert(document.body.scrollHeight);
+    //alert(document.body.scrollHeight);
     //setTimeout(function(){ $("#dialog").dialog("close")}, 500);
     //tempAlert("close",300);
     for (i = 0 ; i < document.images.length ; i++)
