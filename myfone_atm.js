@@ -7,7 +7,7 @@ function tempAlert(msg,duration)
   el.parentNode.removeChild(el);
  },duration);
  document.body.appendChild(el);
-};
+}
 //$(document).ready(function()
 jQuery(function()
 {
@@ -55,10 +55,10 @@ jQuery(function()
         //tempAlert("close",300);
        var checkExist = setInterval(function()
        {
-        //if (document.body.scrollHeight>6580)
+        if (document.body.scrollHeight>6580)
         //if ($("#radio").length > 0)
 
-        if (div.outerHeight() > 30)
+        //if (div.outerHeight() > 30)
         {
           //alert(document.body.scrollHeight);
           setTimeout(document.forms[2].elements[11].click(), 100);
