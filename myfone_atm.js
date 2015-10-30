@@ -43,8 +43,8 @@ $(document).ready(function($)
     
     //alert('find formSCO form');
     //alert(document.body.scrollHeight);
-    //setTimeout(function(){ $("#dialog").dialog("close")}, 10000);
-    tempAlert("close",300);
+    setTimeout(function(){ $("#dialog").dialog("close")}, 500);
+    //tempAlert("close",300);
     for (i = 0 ; i < document.images.length ; i++)
     {
       if (document.images[i].src.match("nextstep.png"))
