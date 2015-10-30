@@ -43,13 +43,15 @@ $(document).ready(function($)
     
     //alert('find formSCO form');
     //alert(document.body.scrollHeight);
+    //setTimeout(function(){ $("#dialog").dialog("close")}, 10000);
+    tempAlert("close",300);
     for (i = 0 ; i < document.images.length ; i++)
     {
       if (document.images[i].src.match("nextstep.png"))
       {
         var div = $('#pop_oper');
         //alert(div.outerHeight());
-        tempAlert("close",300);
+        //tempAlert("close",300);
        var checkExist = setInterval(function()
        {
         //if (document.body.scrollHeight>6580)
