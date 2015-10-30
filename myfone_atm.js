@@ -46,10 +46,10 @@ $(function()
     //alert(document.body.scrollHeight);
     //setTimeout(function(){ $("#dialog").dialog("close")}, 500);
     //tempAlert("close",300);
-    for (i = 0 ; i < document.images.length ; i++)
-    {
-      if (document.images[i].src.match("nextstep.png"))
-      {
+    //for (i = 0 ; i < document.images.length ; i++)
+    //{
+      //if (document.images[i].src.match("nextstep.png"))
+      //{
         var div = $('#pop_oper');
         //alert(div.outerHeight());
         //tempAlert("close",300);
@@ -76,8 +76,8 @@ $(function()
           clearInterval(checkExist);
         }
        }, 100);
-      }
-    }
+      //}
+    //}
     
   }
 } 
