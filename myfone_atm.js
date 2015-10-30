@@ -7,7 +7,7 @@ function tempAlert(msg,duration)
   el.parentNode.removeChild(el);
  },duration);
  document.body.appendChild(el);
-}
+};
 //$(document).ready(function()
 $(function()
 {
