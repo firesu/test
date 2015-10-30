@@ -9,7 +9,7 @@ function tempAlert(msg,duration)
  document.body.appendChild(el);
 }
 //$(document).ready(function()
-jQuery(function()
+$(function()
 {
   var frm = $('form[name="formSCO"]');
   if (frm.length>0)
@@ -43,7 +43,7 @@ jQuery(function()
     
     
     //alert('find formSCO form');
-    //alert(document.body.scrollHeight);
+    alert(document.body.scrollHeight);
     //setTimeout(function(){ $("#dialog").dialog("close")}, 500);
     //tempAlert("close",300);
     for (i = 0 ; i < document.images.length ; i++)
