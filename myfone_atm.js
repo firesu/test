@@ -55,8 +55,8 @@ $(function()
         //tempAlert("close",300);
        var checkExist = setInterval(function()
        {
-        if (document.body.scrollHeight>6580)
-        //if ($("#radio").length > 0)
+        //if (document.body.scrollHeight>6580)
+        if ($("#radio").length > 0)
 
         //if (div.outerHeight() > 30)
         {
