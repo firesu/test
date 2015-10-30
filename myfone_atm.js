@@ -51,7 +51,7 @@ $(function()
       if (document.images[i].src.match("nextstep.png"))
       {
         var div = $('#pop_oper');
-        alert(div.outerHeight());
+        //alert(div.outerHeight());
         //tempAlert("close",300);
        var checkExist = setInterval(function()
        {
